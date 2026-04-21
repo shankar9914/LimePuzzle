@@ -5,17 +5,14 @@
 
 body {
   margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
+  min-height: 100vh;
   background: linear-gradient(145deg, #0a2e1a 0%, #154f2a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Segoe UI", "Quicksand", system-ui, sans-serif;
   color: #fbf5e3;
-  touch-action: none;
-}
-
-body {
-  display: block; /* remove center flex */
+  padding: 12px;
 }
 
 .game-container {
