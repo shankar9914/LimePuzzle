@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <title>LIME PUZZLE</title>
+
+    <link rel="stylesheet" href="style/stylesheet.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div class="stats">
+                <div class="stat"><span>⏱️</span> <span id="time">60</span></div>
+                <div class="stat"><span>🍋</span> <span id="score">0</span></div>
+                <div class="stat"><span>🚀</span> <span id="level">1</span></div>
+            </div>
+            <div class="combo-badge">
+                <span>✨</span> x<span id="comboDisplay">0</span>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas" width="480" height="480"></canvas>
+
+        <div class="gameover-message" id="gameoverMsg"></div>
+
+        <div class="action-bar">
+            <button id="restartButton">🔄 RESTART</button>
+            <button id="hintButton">💡 HINT</button>
+        </div>
+        <!-- <div class="footer-note">🍋 swap · match · cascade · PRO MAX</div> -->
+    </div>
+
+    <script src="script/script-1.js">
+
+    </script>
+</body>
+
+</html>
